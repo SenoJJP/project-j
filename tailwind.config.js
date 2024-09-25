@@ -6,18 +6,19 @@ export default {
   theme: {
     extend: {
       colors: {
-        'primary': '#f6edce',
-        'secondary': '#3a170d',
-        'light-brown-1': '#dba75b',
-        'light-brown-2': '#c3883d',
-        'dark-brown': '#5c2f27',
+        'primary-text': '#3a1d2a',
+        'background': '#fffcf5',
+        'primary': '#f8db91',
+        'secondary': '#ade0ff',
+        'accent': '#f3a477',
       },
     },
   },
   plugins: [
     plugin(({addBase, theme}) => {
       addBase({
-        'html': {color: theme('colors.primary')},
+        'html': {color: theme('colors.primary-text')},
+        'h1': {'font-size': '6rem', 'line-height': 1, color:theme('colors.accent')}
       });
     })
   ],
