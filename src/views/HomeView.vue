@@ -1,5 +1,5 @@
 <script setup lang="ts">
-// https://coolors.co/f8db92-381d2a-fffcf4-aee0ff-9d9d9d
+// https://coolors.co/3a1d2a-fffcf5-f8db91-ade0ff-f3a477
 // https://www.realtimecolors.com/?colors=3a1d2a-fffcf5-f8db91-ade0ff-f3a477&fonts=Inter-Inter
 </script>
 
